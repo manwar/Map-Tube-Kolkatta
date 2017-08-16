@@ -1,11 +1,20 @@
 package Map::Tube::Kolkatta::Line::L2;
 
-use 5.006;
-use strict; use warnings;
+$Map::Tube::Kolkatta::Line::L2::VERSION   = '0.02';
+$Map::Tube::Kolkatta::Line::L2::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
 Map::Tube::Kolkatta::Line::L2 - Kolkatta Metro Map: Line 2.
+
+=head1 VERSION
+
+Version 0.02
+
+=cut
+
+use 5.006;
+use strict; use warnings;
 
 =head1 DESCRIPTION
 

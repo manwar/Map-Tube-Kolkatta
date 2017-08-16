@@ -1,11 +1,15 @@
 package Map::Tube::Kolkatta;
 
-$Map::Tube::Kolkatta::VERSION   = '0.01';
+$Map::Tube::Kolkatta::VERSION   = '0.02';
 $Map::Tube::Kolkatta::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
 Map::Tube::Kolkatta - Interface to the Kolkatta Metro Map.
+
+=head1 VERSION
+
+Version 0.02
 
 =cut
 
@@ -73,7 +77,7 @@ of type L<Map::Tube::Route>. On error it throws exception of type L<Map::Tube::E
     use Map::Tube::Kolkatta;
 
     my $metro = Map::Tube::Kolkatta->new;
-    my $route = $metro->get_shortest_route('Pratap Nagar', 'Shivaji Park');
+    my $route = $metro->get_shortest_route('Esplanade', 'Central');
 
     print "Route: $route\n";
 
