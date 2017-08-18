@@ -1,6 +1,6 @@
 package Map::Tube::Kolkatta;
 
-$Map::Tube::Kolkatta::VERSION   = '0.02';
+$Map::Tube::Kolkatta::VERSION   = '0.03';
 $Map::Tube::Kolkatta::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Kolkatta - Interface to the Kolkatta Metro Map.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
@@ -55,7 +55,8 @@ Source: L<wikipedia|https://en.wikipedia.org/wiki/Kolkata_Metro>.
 
 There is a very handy tool provided by L<Map::Tube::CLI> called C<map-tube> which
 exposes the  map  (and all other maps) from command line. Please refer to its pod
-document for more details.
+document for  more  details. Support  for C<Map::Tube::Kolkatta>, is available by
+L<Map::Tube::CLI> v0.31 or above.
 
 =head1 CONSTRUCTOR
 
