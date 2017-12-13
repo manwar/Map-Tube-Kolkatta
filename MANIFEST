@@ -16,3 +16,5 @@ t/00-load.t
 t/manifest.t
 t/pod.t
 t/map-tube-kolkatta.t
+t/meta-json.t
+t/meta-yml.t
